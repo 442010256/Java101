@@ -3,8 +3,8 @@ import java.util.Scanner;
 //name:Ahmed Atiah Almalki
 //ID:442010256
 //your grade is 3.5/5
-//@ line 5: change the Main to match the file name like Assignment
-public class Assignment {
+//@ line 5: change the Main to match the file name like Assignment (golden rule)
+public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
