@@ -4,7 +4,7 @@ import java.util.Scanner;
 //ID:442010256
 //your grade is 3.5/5
 //@ line 5: change the Main to match the file name like Assignment (golden rule)
-public class Assignment1 {
+public class Assignment {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
