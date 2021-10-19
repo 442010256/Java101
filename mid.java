@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main
+public class Mid
 {
 	public static void main(String[] args) {
 		System.out.println("enter a number");
