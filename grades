@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("enter a Number");
+Scanner scan = new Scanner(System.in);
+float deg = scan.nextFloat();
+
+if (deg>=90&&deg<=100){
+System.out.println('A');
+
+}else if(deg>=80&&deg<=90){
+System.out.println('B');
+    
+}else if(deg>=70&&deg<=80){
+System.out.println('C');
+}else if(deg>=60&&deg<=70){
+System.out.println('D');
+}else if(deg>=0&&deg<=60){
+System.out.println('F');
+}else{
+System.out.println("error");
+}
+	}
+}
