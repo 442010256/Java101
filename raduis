@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("ente a number");
+	Scanner scan = new Scanner(System.in);
+	int x = scan.nextInt();   
+    if(x==1){
+	System.out.println("enter a raduis");
+    float r = scan.nextFloat();
+    System.out.println(r*r*3.14);
+    }else if(x==2){ 
+    System.out.println("enter a hediu");
+    float h = scan.nextFloat();
+    System.out.println("enter a width");
+    float w = scan.nextFloat();
+     System.out.println(h*w);
+    }else{
+     System.out.println("error");
+    }
+    }  
+}
