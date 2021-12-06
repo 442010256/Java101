@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main
+{
+static int add(int x,int a){
+	return a*x;
+}
+static int sub(int m,int n){
+return m+n;
+}
+
+	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+	
+    System.out.println("Hello World");
+	    
+	 int counter = scan.nextInt(); 
+	 if(counter==1){   
+	  
+	  int index = add(1,2); 
+	   System.out.println(index);  
+	 }else if (counter==2){
+	  int index = sub(1,2);
+	 }   
+	}
+}
