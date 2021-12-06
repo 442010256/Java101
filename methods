@@ -1,0 +1,13 @@
+public class Main
+{
+static void printname(String name){
+	System.out.format("my name is %s",name);
+}
+
+	public static void main(String[] args) {
+	
+
+		System.out.println("AHMED");
+	
+	}
+}
