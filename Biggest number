@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+Scanner scan = new Scanner (System.in);
+System.out.println(" enter the first number ");
+int x =scan.nextInt();
+System.out.println(" enter the Second number ");
+int y=scan.nextInt();
+System.out.println(" enter the third number ");
+int z =scan.nextInt();
+if (x>y && x>z) {
+    System.out.println("first number " );
+}
+else if (y>x && y>z) {
+      System.out.println("Second number ");  
+}
+else 
+            System.out.println(" third number ");
+}
+}
