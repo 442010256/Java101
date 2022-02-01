@@ -1,0 +1,33 @@
+
+public class animal{
+public int age;    
+public String gender;   
+
+public void ismammal(){
+}
+public void mate()  {
+} 
+  }
+  
+public class zebra extends animal{
+public boolean is_wild;   
+public void run(){
+    
+}
+}   
+private class fish extends animal{
+private int sizelnFt;
+private boolean canEat;
+private void swim(){
+    
+}
+}
+public class duck extends animal{
+public String beakColor=("yellow");
+public swim(){
+    
+}
+public quack(){
+    
+}
+}
