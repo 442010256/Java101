@@ -1,0 +1,25 @@
+ class Item{
+ String title;    
+ String description;
+ void viewprivate(){
+}
+}
+ class CD extends Item{
+String artist;
+String genre;
+int Numberoftracks
+ void viewprivate(){
+ }
+ }
+ class DVD extends Item{
+String director;
+String certificate;
+ void viewprivate(){
+ }
+ }
+ class book extends Item{
+String author
+String isbn
+ void viewprivate(){
+ }
+ }
