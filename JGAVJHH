@@ -1,0 +1,28 @@
+What is Java threads?
+What is a Thread in Java? A thread in Java is the direction or path that is taken while a program is being executed.
+Generally, all the programs have at least one thread, known as the main thread, that is provided by the JVM or Java
+Virtual Machine at the starting of the program's execution
+REF:GOOGIE.
+
+
+What is Java Main thread?
+ the one that begins executing when the program starts.  
+ All the child threads are spawned from the Main thread. 
+  Also, it is the last thread to finish execution as various shut-down actions are performed by it.
+  REF:GOOGIE.
+  
+  
+  How to create a Window in Java?
+  a top-level window with no borders and no menubar. 
+  The default layout for a window is BorderLayout .
+  A window must have either a frame, dialog, or another window defined as its owner when it's constructed.
+  
+  REF:GOOGIE.
+  
+Create frame in Java?
+A Frame is a top-level window with a title and a border.
+The size of the frame includes any area designated for the border.
+he dimensions of the border area may be obtained using the getInsets method.
+ Since the border area is included in the overall size of the frame, the border effectively obscures a portion of the frame, constraining the area available
+ REF:
+ ORACLE JAVA DOCUMENTATION.
